@@ -102,7 +102,7 @@ html {
 }
 
 .full-nav {
-    background: #f1c30f;
+    background: #545452;
     color: #18191d;
     position: fixed;
     left: 0;
@@ -149,8 +149,8 @@ html {
     flex: 50%;
     background-color: #f5f5f5;
     padding: 1rem;
-    border-bottom: 10px solid #f1c30f;
-    border-right: 10px solid #f1c30f;
+    border-bottom: 10px solid #545452;
+    border-right: 10px solid #545452;
     transition: all 0.5s;
 }
 
@@ -457,7 +457,7 @@ ul.social-icons.list-inline {
 p.lead {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 14px;
-    color: #f7cc4b !important;
+    color: #e84d22 !important;
     font-weight: bold;
 }
 
@@ -611,7 +611,7 @@ a:hover {
 }
 
 .team-box-content {
-    background-color: #f1c30f;
+    background-color: #e84d22;
     position: absolute;
     text-align: center;
     width: 100%;
@@ -659,7 +659,7 @@ a:hover {
 .team-progress .progress-bar {
     height: 100%;
     border-radius: 50px;
-    background: #f1c30f;
+    background: #e84d22;
 }
 
 .w-77 {
@@ -685,14 +685,14 @@ a:hover {
 
 .slider-arrows {
     border-radius: 50px;
-    background: #f1c30f;
+    background: #e84d22;
     color: white;
     font-weight: bold;
     width: 45px;
     height: 45px;
     line-height: 40px;
     transition: 1s;
-    border: 4px solid #f1c30f;
+    border: 4px solid #e84d22;
 }
 
 .services {
@@ -897,7 +897,7 @@ ul.social-list li a {
     font-size: 2.3rem;
     text-transform: uppercase;
     font-weight: 610;
-    color: #1819d3;
+    color: #e84d22;
     line-height: 1.2;
     max-width: 650px;
     margin: 0 auto 1.5rem;
@@ -916,7 +916,7 @@ ul.social-list li a {
     display: inline-block;
     width: 5px;
     height: 5px;
-    background: #f1c30f;
+    background: #e84d22;
     position: relative;
     left: 12px;
     top: -2.5px;
@@ -928,16 +928,16 @@ ul.social-list li a {
 }
 
 #work .cbp-l-filters-alignCenter .cbp-filter-item.cbp-filter-item-active {
-    color: #f1c30f;
+    color: #e84d22;
 }
 
 #work .cbp-l-filters-alignCenter .cbp-filter-counter {
-    background-color: #f1c30f;
+    background-color: #e84d22;
 }
 
 
 #work .cbp-l-filters-alignCenter .cbp-filter-counter:after {
-    border-top: 4px solid #f1c30f;
+    border-top: 4px solid #e84d22;
 }
 
 #work .cbp-l-filters-alignCenter .cbp-filter-item {
@@ -1206,3 +1206,14 @@ width:100%
     width: 100%;
 }
 
+/*Font awesome icons*/
+.fa-5x{
+    color:#e84d22;
+}
+
+#about-us .carousel-indicators li{
+    background-color: #e84d22;
+}
+a:hover{
+    color:#e84d22;
+}
