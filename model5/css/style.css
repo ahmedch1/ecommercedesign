@@ -799,11 +799,9 @@ address strong {
 
 form .form-control {
     background: transparent;
-    border-radius: 0;
     border-color: white;
     font-size: 17px;
     font-weight: 300;
-    padding: 8px 17px;
     margin-bottom: 20px;
     color: white;
 }

@@ -1,4 +1,16 @@
 $(document).ready(function () {
+    //smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+
+
     $(".nav-icon").click(function () {
         $(".full-nav").addClass("open");
     });
@@ -98,6 +110,4 @@ $(document).ready(function () {
             }
         }
     });
-
-
 });
